@@ -1,1 +1,11 @@
 # redis-cache
+- Redis is a key value store used for caching
+- creact an instance of redis client 
+- push data to redis using "set"  method
+- get data from redis using "get" method
+- If data is not present it returns "null"
+- First check for cached data in redis if data is not present then make a request to database and get the data and store it in redis
+- For mac dowload redis using `brew install redis`
+- Test redis server `redis-server`
+- To start `brew services start redis`
+- To stop `brew services stop redis`
